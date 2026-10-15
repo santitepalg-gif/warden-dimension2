@@ -1,0 +1,63 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "warden_dimension:block/glowcap_a",
+        "weight": 3
+      },
+      {
+        "model": "warden_dimension:block/glowcap_a",
+        "weight": 3,
+        "y": 90
+      },
+      {
+        "model": "warden_dimension:block/glowcap_a",
+        "weight": 3,
+        "y": 180
+      },
+      {
+        "model": "warden_dimension:block/glowcap_a",
+        "weight": 3,
+        "y": 270
+      },
+      {
+        "model": "warden_dimension:block/glowcap_b",
+        "weight": 2
+      },
+      {
+        "model": "warden_dimension:block/glowcap_b",
+        "weight": 2,
+        "y": 90
+      },
+      {
+        "model": "warden_dimension:block/glowcap_b",
+        "weight": 2,
+        "y": 180
+      },
+      {
+        "model": "warden_dimension:block/glowcap_b",
+        "weight": 2,
+        "y": 270
+      },
+      {
+        "model": "warden_dimension:block/glowcap_c",
+        "weight": 1
+      },
+      {
+        "model": "warden_dimension:block/glowcap_c",
+        "weight": 1,
+        "y": 90
+      },
+      {
+        "model": "warden_dimension:block/glowcap_c",
+        "weight": 1,
+        "y": 180
+      },
+      {
+        "model": "warden_dimension:block/glowcap_c",
+        "weight": 1,
+        "y": 270
+      }
+    ]
+  }
+}
