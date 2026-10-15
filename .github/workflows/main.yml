@@ -21,13 +21,17 @@ jobs:
           distribution: 'temurin'
 
       - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
+        run: |
+          cd warden_dimension
+          chmod +x gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build
+        run: |
+          cd warden_dimension
+          ./gradlew build
 
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: warden-dimension-jar
-          path: build/libs/*.jar
+          path: warden_dimension/build/libs/*.jar
